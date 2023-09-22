@@ -1,0 +1,23 @@
+{
+  "name": "zed-core",
+  "author": {
+    "name": "Vladimir Drayling",
+    "email": "draylegend@gmail.com",
+    "url": "https://github.com/draylegend/zed-core"
+  },
+  "module": "cli/src/index.ts",
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "bun-types": "latest",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "bun run cli/src/index.ts"
+  },
+  "type": "module"
+}
