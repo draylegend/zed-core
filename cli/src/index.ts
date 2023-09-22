@@ -1,1 +1,5 @@
-console.log('Hello via Bun!');
+import { Server } from './server.ts';
+
+const server = new Server();
+
+server.serve();
